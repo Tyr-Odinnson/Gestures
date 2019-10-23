@@ -86,7 +86,7 @@ public class SurfaceBackground extends SurfaceView implements GestureDetector.On
 
     public void image_Init() {
         for (int i = 0; i < bitmap_bk.length; i++) {
-            bitmap_bk[i] = BitmapFactory.decodeResource(getResources(), img_list[1]);
+            bitmap_bk[i] = BitmapFactory.decodeResource(getResources(), img_list[i]);
         }
         Log.d("Testing", "init called!    ");
     }
