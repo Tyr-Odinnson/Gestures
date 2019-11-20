@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 
     @Override
     public boolean onScroll(MotionEvent motionEvent, MotionEvent motionEvent1, float v, float v1) {
-        img.animate().translationXBy(motionEvent1.getX()).setDuration(1000);
-        img.animate().translationYBy(motionEvent1.getY()).setDuration(1000);
+       img.animate().translationXBy(motionEvent1.getX()).setDuration(1000);
+ //      img.animate().translationYBy(motionEvent1.getY()).setDuration(1000);
         Log.d("testing", "onScroll");
         return false;
     }
@@ -70,10 +70,10 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
 //        deltaY = motionEvent.getY() + v - motionEvent1.getY() + v1;
 //        double degree = Math.atan2(deltaY, deltaX);
 //        int deg = (int) Math.toDegrees(degree);
-        // img.setRotationX(deg);
-        // img.setRotationY(deg);
+//         img.setRotationX(deg);
+//         img.setRotationY(deg);
 //        img.animate().rotationBy(deg).setDuration(1000);
-  //      Log.d("testing", "onFling" + deltaX + " " + deltaY + "tan " + degree + "degree ");
+//        Log.d("testing", "onFling" + deltaX + " " + deltaY + "tan " + degree + "degree ");
         return false;
     }
 
